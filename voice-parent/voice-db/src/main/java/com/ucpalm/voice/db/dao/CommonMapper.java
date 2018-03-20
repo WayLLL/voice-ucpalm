@@ -5,13 +5,16 @@ import java.util.Map;
 
 import org.apache.ibatis.annotations.Param;
 
+import tk.mybatis.mapper.common.Mapper;
+import tk.mybatis.mapper.common.MySqlMapper;
+
 
 /**
  * 通用dao
  * @author chendi
  *
  */
-public interface CommonMapper  {
+public interface CommonMapper<T> extends  Mapper<T>,MySqlMapper<T> {
 
 	Map<String, Object>  getUser(@Param(value="userId") String userId);
 	

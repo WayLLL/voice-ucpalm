@@ -40,7 +40,7 @@ public class VoiceNotifyController {
 
 	private Logger logger = LoggerFactory.getLogger(VoiceNotifyController.class);
 	
-	@Autowired
+	//@Autowired
 	private CommonMapper commonDao;
 	
 	@SuppressWarnings("rawtypes")

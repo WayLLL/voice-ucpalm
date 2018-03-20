@@ -5,7 +5,7 @@
 <!-- 公共的业务数据库操作语句 -->
 <mapper namespace="com.ucpalm.voice.db.dao.test.UserMapper">
 	<!-- 获取账户信息 -->
-	<select id="getUser" resultType="map">
+	<select id="getUser" resultType="java.util.Map">
 		select * from tb_caas_user t limit 1
 	</select>
 </mapper>

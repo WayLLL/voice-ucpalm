@@ -26,6 +26,6 @@ spring:
 
     
 mybatis: 
-  mapper-locations: classpath*:com/voice/db/mapper/*Mapper.xml
-  type-aliases-package: com.voice.db.entity
+  mapper-locations: classpath*:com/ucpalm/voice/db/mapper/*Mapper.xml
+  type-aliases-package: com.ucpalm.voice.db.entity
   

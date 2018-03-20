@@ -38,7 +38,7 @@
 		<mybatis.version>3.2.8</mybatis.version>
 		<fastjson.version>1.1.40</fastjson.version>
 		<slf4j-api.version>1.7.1</slf4j-api.version>
-		<mybatis-spring.version>1.2.2</mybatis-spring.version>
+		<mybatis-spring.version>1.3.2</mybatis-spring.version>
 		<mybatisplus-spring-boot-starter.version>1.3.0</mybatisplus-spring-boot-starter.version>
 		<commons-dbcp2.version>2.0.1</commons-dbcp2.version>
 		<commons-io.version>2.4</commons-io.version>
@@ -72,6 +72,23 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>${mybatisplus-spring-boot-starter.version}</version>
         </dependency>
+		<dependency>
+		    <groupId>tk.mybatis</groupId>
+		    <artifactId>mapper</artifactId>
+		    <version>3.4.3</version>
+		</dependency>
+        <dependency>
+				<groupId>org.mariadb.jdbc</groupId>
+				<artifactId>mariadb-java-client</artifactId>
+				<version>1.5.9</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>5.1.44</version>
+		</dependency>
+		
 		<dependency>
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-web</artifactId>
