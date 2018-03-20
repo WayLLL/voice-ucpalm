@@ -1,4 +1,4 @@
-package com.voice.db.entity;
+package com.ucpalm.voice.db.entity;
 /**
  * 
  * @author xupiao 2017年8月16日

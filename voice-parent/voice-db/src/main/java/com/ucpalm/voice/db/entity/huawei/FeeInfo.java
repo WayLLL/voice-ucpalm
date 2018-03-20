@@ -1,6 +1,6 @@
-package com.voice.db.entity.huawei;
+package com.ucpalm.voice.db.entity.huawei;
 
-import com.voice.db.entity.BaseModel;
+import com.ucpalm.voice.db.entity.BaseModel;
 
 /**
  * 

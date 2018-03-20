@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.voice.db.dao.test.UserMapper;
+import com.ucpalm.voice.db.dao.test.UserMapper;
 
 import junit.framework.TestCase;
 

@@ -1,4 +1,4 @@
-package com.voice.db.entity.callback.safetycall;
+package com.ucpalm.voice.db.entity.callback.safetycall;
 
 public class SafetyCallHwBillModel {
 

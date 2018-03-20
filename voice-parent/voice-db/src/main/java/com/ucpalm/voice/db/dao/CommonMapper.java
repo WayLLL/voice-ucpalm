@@ -1,13 +1,10 @@
-package com.voice.db.dao;
+package com.ucpalm.voice.db.dao;
 
 import java.util.Map;
 
-import javax.annotation.Resource;
 
 import org.apache.ibatis.annotations.Param;
-import org.mybatis.spring.SqlSessionTemplate;
 
-import com.voice.common.basedao.BaseDao;
 
 /**
  * 通用dao

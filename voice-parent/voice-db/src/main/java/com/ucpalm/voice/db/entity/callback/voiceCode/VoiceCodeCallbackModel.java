@@ -1,6 +1,6 @@
-package com.voice.db.entity.callback.voiceCode;
+package com.ucpalm.voice.db.entity.callback.voiceCode;
 
-import com.voice.db.entity.BaseModel;
+import com.ucpalm.voice.db.entity.BaseModel;
 
 /**
  * 

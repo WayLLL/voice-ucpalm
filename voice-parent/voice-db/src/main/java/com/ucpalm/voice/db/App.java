@@ -1,4 +1,4 @@
-package com.voice.db;
+package com.ucpalm.voice.db;
 
 /**
  * Hello world!

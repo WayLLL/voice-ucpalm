@@ -1,4 +1,4 @@
-package com.voice.db.entity;
+package com.ucpalm.voice.db.entity;
 
 /**
  * 东信AX平台呼叫结束推送携带参数的model

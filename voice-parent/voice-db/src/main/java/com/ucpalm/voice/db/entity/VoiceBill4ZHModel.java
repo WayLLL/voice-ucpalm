@@ -1,4 +1,4 @@
-package com.voice.db.entity;
+package com.ucpalm.voice.db.entity;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;

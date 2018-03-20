@@ -5,7 +5,7 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.voice.db.dao.test.UserMapper;
+import com.ucpalm.voice.db.dao.test.UserMapper;
 import com.voice.rest.service.UserService;
 
 @Service

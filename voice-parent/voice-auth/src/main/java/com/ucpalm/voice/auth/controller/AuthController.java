@@ -18,8 +18,8 @@ import com.ucpalm.voice.common.gloable.EnumType.BusiErrorCode;
 import com.ucpalm.voice.common.util.EncryptUtil;
 import com.ucpalm.voice.common.util.JsonUtil;
 import com.ucpalm.voice.common.util.StringUtil;
-import com.voice.db.dao.CommonMapper;
-import com.voice.db.entity.AuthModel;
+import com.ucpalm.voice.db.dao.CommonMapper;
+import com.ucpalm.voice.db.entity.AuthModel;
 
 @RestController
 public class AuthController {

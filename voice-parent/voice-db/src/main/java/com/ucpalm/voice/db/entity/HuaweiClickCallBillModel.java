@@ -1,9 +1,10 @@
-package com.voice.db.entity;
+package com.ucpalm.voice.db.entity;
 
 import java.util.List;
 
-import com.voice.db.entity.huawei.CallStatusInfo;
-import com.voice.db.entity.huawei.FeeInfo;
+import com.ucpalm.voice.db.entity.huawei.CallStatusInfo;
+import com.ucpalm.voice.db.entity.huawei.FeeInfo;
+
 
 
 /**

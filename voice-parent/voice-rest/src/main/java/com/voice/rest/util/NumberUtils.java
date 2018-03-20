@@ -1,10 +1,9 @@
 package com.voice.rest.util;
 
-import java.util.HashMap;
 import java.util.Map;
 
-import com.voice.common.util.StringUtil;
-import com.voice.db.dao.CommonMapper;
+import com.ucpalm.voice.common.util.StringUtil;
+import com.ucpalm.voice.db.dao.CommonMapper;
 import com.voice.rest.conf.SpringContextUtils;
 
 
@@ -36,7 +35,7 @@ public class NumberUtils {
 	 */
 	public static String getMobileAttribution(String mobile) {
 		if (mobile.startsWith("12599")) {
-			String cityId = dao.selectOne("common.getNumberCityId", mobile);
+			String cityId =  dao.getNumberCityId(mobile);
 			if (StringUtil.isNotEmpty(cityId)) {
 				return cityId;
 			}
@@ -56,8 +55,6 @@ public class NumberUtils {
 	}
 
 	private static Map<String, Object> getNumInfomation(String mobile) {
-		Map<String, Object> sqlParams = new HashMap<String, Object>();
-		sqlParams.put("mobile", mobile.substring(0, 7));
-		return dao.selectOne("common.getNumInfomation", sqlParams);
+		return  dao.getNumInfomation(mobile.substring(0, 7));
 	}
 }

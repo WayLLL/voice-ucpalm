@@ -1,4 +1,4 @@
-package com.voice.db.entity;
+package com.ucpalm.voice.db.entity;
 
 /**
  * 双向外呼实体

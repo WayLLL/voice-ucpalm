@@ -1,4 +1,4 @@
-package com.voice.db.entity.callback.safetycall;
+package com.ucpalm.voice.db.entity.callback.safetycall;
 
 import java.util.List;
 import java.util.Map;

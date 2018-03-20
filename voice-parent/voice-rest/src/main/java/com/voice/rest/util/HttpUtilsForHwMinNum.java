@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.voice.common.util.EncryptUtil;
+import com.ucpalm.voice.common.util.EncryptUtil;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -16,7 +16,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
 import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

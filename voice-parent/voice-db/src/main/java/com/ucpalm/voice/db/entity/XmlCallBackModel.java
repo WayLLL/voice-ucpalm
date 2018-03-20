@@ -1,9 +1,9 @@
-package com.voice.db.entity;
+package com.ucpalm.voice.db.entity;
 
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-import com.voice.common.gloable.EnumType;
+import com.ucpalm.voice.common.gloable.EnumType;
 
 /**
  * Created by Jweikai on 2017/9/17.

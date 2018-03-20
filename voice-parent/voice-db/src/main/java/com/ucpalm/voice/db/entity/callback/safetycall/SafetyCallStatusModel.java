@@ -1,6 +1,6 @@
-package com.voice.db.entity.callback.safetycall;
+package com.ucpalm.voice.db.entity.callback.safetycall;
 
-import com.voice.db.entity.BaseModel;
+import com.ucpalm.voice.db.entity.BaseModel;
 
 /**
  * 
