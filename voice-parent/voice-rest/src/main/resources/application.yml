@@ -1,0 +1,31 @@
+#数据库连接地址
+spring: 
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource  
+    url: jdbc:mysql://172.16.6.12:3306/flow_web_chend?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+    username: flow-admin  
+    password: flow-password  
+    driverClassName: com.mysql.jdbc.Driver  
+    #dataSource Pool configuration  
+    initialSize: 5  
+    minIdle: 5  
+    maxActive: 20  
+    maxWait: 60000  
+    timeBetweenEvictionRunsMillis: 60000     
+    minEvictableIdleTimeMillis: 300000  
+    validationQuery: SELECT 1 FROM DUAL  
+    testWhileIdle: true  
+    testOnBorrow: false  
+    exceptionSorter: true  
+    testOnReturn: false  
+    poolPreparedStatements: true  
+    filters: stat,wall,log4j  
+    maxPoolPreparedStatementPerConnectionSize: 20  
+    connectionProperties: druid.stat.mergeSql:=true;druid.stat.slowSqlMillis= 500  
+    useGlobalDataSourceStat: true  
+
+    
+mybatis: 
+  mapper-locations: classpath*:com/voice/db/mapper/*Mapper.xml
+  type-aliases-package: com.voice.db.entity
+  

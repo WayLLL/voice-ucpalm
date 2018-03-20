@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 公共的业务数据库操作语句 -->
+<mapper namespace="com.voice.db.dao.test.UserMapper">
+	<!-- 获取账户信息 -->
+	<select id="getUser" resultType="map">
+		select * from tb_caas_user t limit 1
+	</select>
+</mapper>
